@@ -1,0 +1,379 @@
+/* Reset Browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* class cha */
+
+    /* ap dung flex-box phai có display flex */
+
+/* huong sap xep phan tu con (row / row rever/ collum... */
+   /* flex-wrap: wrap;
+    /* flex-wrap (phan tu con tren 1 trang, tu dong chuyen sang hang khac*/
+/* justify-content: can chinh item trong 1 hang ngang*/
+/* Su dung nhieu - can chinh chieu ngang*/
+/* j-centerSu dung nhieu*/
+/*align-content: space-evenly; 
+/* flex-wrap su dung nhieu cung align content*/
+
+/* align-item center- can chinh theo chieu doc (hay dung nhieu) */
+.back-ground {
+    width: 100%;
+    height: 700px;
+    background-color: silver;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+
+/* class con leetcode */
+.container-leetcode{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: 50%;
+    border-radius: 5px;
+}
+.box-leetcode {
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+    color: black;
+    order: 1;
+}
+.box-leetcode {
+    position: relative;
+    
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 10px; /* Điều chỉnh vị trí theo ý muốn */
+    left: 7%;
+    font-size: 30px;
+    white-space: nowrap;
+    color: white;
+    padding: 30px;
+
+  }
+.content{
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.icon-star-leetcode i{
+    margin-left: 85%;
+    margin-top: 30px;
+}
+.box-leetcode img {
+    width: 100%;
+    height: 200px;
+   object-fit: cover; 
+   
+}
+
+.content-small{
+ margin-top: -23%;   
+}
+/* class con java */
+.container-java{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+.box-java {
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+    color: black;
+    order: 2;
+   
+}
+.image-text1 {
+    position: absolute;
+    top: 30px; /* Điều chỉnh vị trí theo ý muốn */
+    left: 44%;
+    font-size: 60px;
+    white-space: nowrap;
+    color: white;
+    padding: 30px;
+}
+.content1{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.icon-star-java i{
+    margin-left: 85%;
+    margin-top: 30px;
+
+}
+.box-java img {
+    width: 100%;
+    height: 200px;
+   object-fit: cover;}
+   .content-small1{
+    margin-top: -25%;   
+   }
+
+/* class con java can ban*/
+.container-java-can-ban{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: -10%;
+    border-radius: 5px;
+}
+.box-java-can-ban {
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+    color: black;
+    order: 3;
+}
+.image-text2 {
+    position: absolute;
+    top: 30px; /* Điều chỉnh vị trí theo ý muốn */
+    left: 62%;
+    font-size: 50px;
+    white-space: nowrap;
+    color: white;
+    padding: 30px;
+}
+.content2{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.icon-star-java-can-ban i{
+    margin-left: 85%;
+    margin-top: 30px;
+
+}
+
+.box-java-can-ban img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+   object-fit: cover;}
+   .content-small2{
+    margin-top: -25%;   
+   }
+/* class con spring boot*/
+.container-spring-boot{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: 50%;
+    border-radius: 5px;
+}
+
+.box-spring-boot {
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+    color: black;
+    order: 4;
+}
+.image-text3 {
+    position: absolute;
+    top: 370px; /* Điều chỉnh vị trí theo ý muốn */
+    left: 17%;
+    font-size: 50px;
+    white-space: nowrap;
+    color: white;
+    padding: 30px;
+}
+.content3{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.icon-star-spring-boot i{
+    margin-left: 85%;
+    margin-top: 30px;
+
+}
+
+.box-spring-boot img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+   object-fit: cover;}
+   .content-small3{
+    margin-top: -25%;   
+   }
+
+/* class con golang*/
+
+.container-golang{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+.box-golang {
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+    color: black;
+    order: 5;
+}
+.image-text4 {
+    position: absolute;
+    top: 370px; /* Điều chỉnh vị trí theo ý muốn */
+    left: 43%;
+    font-size: 50px;
+    white-space: nowrap;
+    color: white;
+    padding: 30px;
+}
+.content4{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.icon-star-golang i{
+    margin-left: 85%;
+    margin-top: 10px;
+
+}
+
+.box-golang img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+   object-fit: cover;}
+   .content-small4{
+    margin-top: -25%;   
+   }
+
+/* class con database-design*/
+
+.container-database-design{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: -10%;
+    border-radius: 5px;
+}
+
+.box-database-design {
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+    color: black;
+    order: 6;
+}
+.image-text5 {
+    position: absolute;
+    top: 370px; /* Điều chỉnh vị trí theo ý muốn */
+    left: 62%;
+    font-size: 2;
+    white-space: nowrap;
+    color: white;
+    padding: 30px;
+}
+.content5{
+    font-size: 19px;
+    margin-left: 5%;
+}
+.icon-star-database-design i{
+    margin-left: 85%;
+    margin-top: 30px;
+
+}
+
+.box-database-design img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+   object-fit: cover;}
+   .content-small5{
+    margin-top: -23%;   
+   }
+
+   .footer {
+    height: 200px;
+    background-color: gray;
+    display: flex;
+   }
+   .Col1 {
+    color: white;
+    margin-left: 90%;
+    margin-top: 8%;
+    white-space: nowrap;
+    font-size: 20px;
+   }
+   .content-col1{
+    color: white;
+    font-size: 14px;
+   }
+
+   .Col2 {
+    color: white;
+    margin-left: 200%;
+    margin-top: -46%;
+    white-space: nowrap;
+    font-size: 20px;
+   }
+   .content-col2{
+    color: white;
+    font-size: 14px;
+   }
+
+   .Col3 {
+    color: white;
+    margin-left: 280%;
+    margin-top: -46%;
+    white-space: nowrap;
+    font-size: 20px;
+   }
+   .content-col3{
+    color: white;
+    font-size: 14px;
+   }
+
+   .Col4 {
+    color: white;
+    margin-left: 390%;
+    margin-top: -45%;
+    white-space: nowrap;
+    font-size: 20px;
+   }
+   .content-col4{
+    color: white;
+    font-size: 14px;
+   }
+   .content-col4 i{
+    margin-top: 10px;
+   }
+/* trang back link*/
+.background1{
+    width: 100%;
+    height: 1000px;
+    background-color: silver;
+    display: flex;
+}
+   .back-link {
+    display: inline-block;
+    padding: 7px 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.box-content {
+    margin-top: 80px;
+    margin-left: -140px;
+    width: 100%; /* Điều chỉnh kích thước theo ý muốn */
+    height: 600px; /* Điều chỉnh kích thước theo ý muốn */
+    background-color: white; 
+}
+
